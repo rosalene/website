@@ -23,7 +23,7 @@
 
 /* 100% width bar for menu */
 .cbp-hsinner {
-	background: #000;
+	background: rgba(0, 0, 0, 0.9);
 	position: relative;
 	z-index: 100;
 }
