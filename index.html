@@ -56,11 +56,36 @@
 		</script>
 		<main>
 			<div class="page-body">
-				<div class="landing">
-
-					<h1>Sustainability Schools</h1>
-					<!-- <img src="images/IMG_1.jpeg"/> -->
-				</div>
+					<h1>Indigenous Sustainability Field Schools</h1>
+					<div class="carousel">
+			
+							<div class="w3-content w3-section" >
+								
+									<img class="mySlides w3-animate-fading" src="images/IMG_1.jpeg" style="width:100%">
+									<img class="mySlides w3-animate-fading" src="images/IMG_2.jpeg" style="width:100%">
+									<img class="mySlides w3-animate-fading" src="images/IMG_8473.JPG" style="width:100%">
+									<img class="mySlides w3-animate-fading" src="images/DSC_0075.JPG" style="width:100%">
+								</div>
+								
+														
+							<script>
+								var myIndex = 0;
+							carousel();
+							
+							function carousel() {
+							  var i;
+							  var x = document.getElementsByClassName("mySlides");
+							  for (i = 0; i < x.length; i++) {
+								x[i].style.display = "none";  
+							  }
+							  myIndex++;
+							  if (myIndex > x.length) {myIndex = 1}    
+							  x[myIndex-1].style.display = "block";  
+							  setTimeout(carousel, 9000);    
+							}
+									</script>
+											</div>
+				
 				<div class="landing-text">
 					<h2>Home Content 1</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
@@ -73,35 +98,12 @@
 					<h2>Home Content 5</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				</div>
+				<div class="landing">
 
-				<div class="carousel">
+						<h1>Sustainability Schools</h1>
+						<!-- <img src="images/IMG_1.jpeg"/> -->
+					</div>
 			
-<div class="w3-content w3-section" >
-	
-		<img class="mySlides w3-animate-fading" src="images/IMG_1.jpeg" style="width:100%">
-		<img class="mySlides w3-animate-fading" src="images/IMG_2.jpeg" style="width:100%">
-		<img class="mySlides w3-animate-fading" src="images/IMG_8473.JPG" style="width:100%">
-		<img class="mySlides w3-animate-fading" src="images/DSC_0075.JPG" style="width:100%">
-	</div>
-	
-							
-<script>
-	var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 9000);    
-}
-		</script>
-				</div>
 				<div class="home-data">
 						<h2>Home Content 1</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>

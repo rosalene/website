@@ -1,5 +1,9 @@
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Quicksand');
+body{
+	font-family: 'Quicksand', sans-serif;
+}
 footer{
 	
  
@@ -74,4 +78,8 @@ header{
 }
 .home-data{
 	padding:5%;
+}
+
+h2{
+	padding-top: 4%;
 }
